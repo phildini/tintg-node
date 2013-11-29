@@ -1,4 +1,4 @@
-var io = require('socket.io').listen(8080);
+var io = require('socket.io').listen(80);
 var redis = require('redis');
 var url = require('url');
 var redisURL = url.parse(process.env.REDISCLOUD_URL);
