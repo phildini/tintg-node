@@ -1,3 +1,4 @@
+var port = process.env.port || 5000;
 var io = require('socket.io').listen(port);
 var redis = require('redis');
 var url = require('url');
