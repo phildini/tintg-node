@@ -1,0 +1,23 @@
+{
+  "name": "tintg-node",
+  "version": "0.0.0",
+  "description": "The node server for TINTG",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phildini/tintg-node.git"
+  },
+  "author": "Philip James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phildini/tintg-node/issues"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "redis": "~0.9.1"
+  }
+}
